@@ -1,8 +1,8 @@
-module github.com/365vpn/x365/mobile
+module github.com/SakurakaiCat/x365-mobile
 
 go 1.26.0
 
-require github.com/365vpn/x365 v0.0.0
+require github.com/SakurakaiCat/x365-core v0.0.0
 
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
@@ -16,6 +16,6 @@ require (
 	golang.org/x/tools v0.49.0 // indirect
 )
 
-replace github.com/365vpn/x365 => ../x365-core
+replace github.com/SakurakaiCat/x365-core => ../x365-core
 
 tool golang.org/x/mobile/cmd/gobind

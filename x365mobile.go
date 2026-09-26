@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/365vpn/x365/core"
+	"github.com/SakurakaiCat/x365-core"
 )
 
 // LogCallback is a gomobile-compatible log callback type.
