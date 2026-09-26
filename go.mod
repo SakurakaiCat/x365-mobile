@@ -16,6 +16,6 @@ require (
 	golang.org/x/tools v0.49.0 // indirect
 )
 
-replace github.com/365vpn/x365 => ..
+replace github.com/365vpn/x365 => ../x365-core
 
 tool golang.org/x/mobile/cmd/gobind
